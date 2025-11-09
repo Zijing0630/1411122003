@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <title>商品資訊表格</title>
+  <style>
+    body {
+      font-family: Arial, "微軟正黑體";
+      text-align: center;
+    }
+    table {
+      margin: 20px auto;
+      border-collapse: collapse;
+      width: 60%;
+    }
+    caption {
+      font-weight: bold;
+      font-size: 1.2em;
+      margin-bottom: 10px;
+    }
+    th, td {
+      border: 1px solid #666;
+      padding: 8px;
+    }
+    thead {
+      background-color: #f2f2f2;
+    }
+    tfoot {
+      background-color: #e6f3ff;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <table frame="border" rules="all">
+    <caption>商品資訊表格</caption>
+
+    <thead>
+      <tr>
+        <th>商品名稱</th>
+        <th>價格</th>
+        <th>庫存</th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <tr>
+        <td>魔杖</td>
+        <td>$1200</td>
+        <td>20</td>
+      </tr>
+      <tr>
+        <td>掃帚</td>
+        <td>$900</td>
+        <td>15</td>
+      </tr>
+      <tr>
+        <td>貓頭鷹</td>
+        <td>$1500</td>
+        <td>8</td>
+      </tr>
+    </tbody>
+
+    <tfoot>
+      <tr>
+        <td colspan="3">資料更新日期：2025/11/09</td>
+      </tr>
+    </tfoot>
+  </table>
+</body>
+</html>
