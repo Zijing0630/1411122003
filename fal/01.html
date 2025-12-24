@@ -11,35 +11,68 @@
       padding-top: 56px; 
       padding-bottom: 80px; 
     }
+
+  
+    .navbar {
+        background-color: #F17F42; 
+    }
+
+    .navbar .navbar-brand,
+    .navbar .nav-link {
+        color: #FFEEE4; 
+    }
+
+    .navbar .nav-link.active {
+        color: #FFEEE4; 
+    }
+
+    .navbar .nav-link:hover {
+        color: #CE6D39; 
+    }
+
+  
+    footer {
+        background-color: #CE6D39;
+        color: #000000;    
+    }
+
+    footer a {
+        color: #ff9900; 
+        text-decoration: none;
+    }
+
+    footer a:hover {
+        color: #ffff66; 
+    }
   </style>
 </head>
 
 <body>
 
 <header>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-    <div class="container">
-      <a class="navbar-brand" href="#">憨吉小宇宙</a>
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">憨吉小宇宙</a>
 
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-        data-bs-target="#navbarNav"
-        aria-controls="navbarNav"
-        aria-expanded="false"
-        aria-label="切換導航">
-        <span class="navbar-toggler-icon"></span>
-      </button>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="切換導航">
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav ms-auto">
-          <li class="nav-item"><a class="nav-link active" href="#">首頁</a></li>
-          <li class="nav-item"><a class="nav-link" href="#">寵物基本介紹</a></li>
-          <li class="nav-item"><a class="nav-link" href="#">生活習性</a></li>
-          <li class="nav-item"><a class="nav-link" href="#">照片、影片展示</a></li>
-          <li class="nav-item"><a class="nav-link" href="#">照顧方式與注意事項</a></li>
-        </ul>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link active" href="#">首頁</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">寵物基本介紹</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">生活習性</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">照片、影片展示</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">照顧方式與注意事項</a></li>
+          </ul>
+        </div>
       </div>
-    </div>
-  </nav>
+    </nav>
 </header>
 
 <main class="flex-grow-1">
@@ -85,8 +118,7 @@
           </div>
       </div>
     </div>
-  </main>
-  
+</main>
 
 <footer class="bg-dark text-white py-4 fixed-bottom">
   <div class="container d-flex justify-content-between align-items-center">
