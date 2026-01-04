@@ -4,12 +4,12 @@ body{
     padding-top:110px;
   }
   
-  /* ===== 區塊間距 ===== */
+  
   #home{
     padding-top:30px;
   }
   
-  /* ===== 導覽列 ===== */
+  
   .navbar{
     background:#F2C27B!important;
     border-bottom:4px solid #F7B7C6;
@@ -25,23 +25,22 @@ body{
     color:#7FAF8A!important;
   }
   
-  /* ===== 區塊背景色 ===== */
+
   #home{background:#FFF8EE;}
   #section1{background:#FFF0D6;}
   #section2{background:#FFF5E3;}
   #section3{background:#FFE8C8;}
   #section4{background:#FFF0D6;}
   
-  /* ===== 卡片容器（保留圓角＋陰影） ===== */
+  
   .border.rounded{
     background:white;
     border-radius:26px;
     border:none;
-    box-shadow:0 12px 30px #c496a0;
-    transition:.35s;
+  
   }
   
-  /* ===== 首頁方形圖片設定（重點） ===== */
+  
   .rect-img-box{
     width:100%;
     aspect-ratio:4 / 3; 
@@ -56,7 +55,7 @@ body{
   }
   
   
-  /* ===== 標題樣式 ===== */
+ 
   h2{
     color:#8b5a2b;
     letter-spacing:2px;
@@ -72,7 +71,7 @@ body{
     margin-top:10px;
   }
   
-  /* ===== 頁尾 ===== */
+ 
   #footer h2,
   #footer p{
     color:#8b5a2b;
@@ -81,16 +80,16 @@ body{
   #footer{
     background:#F6C98F !important;
   }
-  /* ===== 通用圖片容器（全站共用） ===== */
+
 .rect-img-box{
     width:100%;
-    aspect-ratio:4 / 3;      /* 跟首頁一樣的比例 */
+    aspect-ratio:4 / 3; 
   }
   
   .rect-img{
     width:100%;
     height:100%;
-    object-fit:cover;        /* 裁切不變形 */
+    object-fit:cover;       
     object-position:center 50%;
     display:block;
   }
